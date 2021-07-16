@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      title:{
+        text: "Reasons For Not Using Toilets"
+      },
+      data: [
+
+      {
+        dataPoints: [
+        { x: 1, y: 35, label: "No super structure"},
+        { x: 2, y: 80,  label: "Not clean/insufficient water" },
+        { x: 3, y: 37,  label: "Malfunctioning of the toilets"},
+        { x: 4, y: 10,  label: "Inadequate number of toilets"},
+        { x: 5, y: 44,  label: "Latrine is used for other purpose"},
+        { x: 6, y: 56, label: "Lack of privacy/safety"},
+        { x: 7, y: 20,  label: "Cannot afford charges of paid toilets"}
+        ]
+      }
+      ]
+    });
+
+    chart.render();
+  }
+  </script>
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script></head>
+  <body>
+   <div id="chartContainer" style="height: 600px; width: 100%;">
+   </div>
+ </body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript">
+
+window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+      title:{
+        text: "Percentage of toilet Constructed over India"
+      },
+      data: [
+      {
+        type: "bar",
+        dataPoints: [
+        { y: 72, label: "Andhaman and Nicobar Islands"},
+        { y: 65, label: "Andhra Pradesh"},
+        { y: 80, label: "Arunachal Pradesh"},
+        { y: 56, label: "Assam"},
+        { y: 52, label: "Bihar"},
+        { y: 67, label: "Chandigarh"},
+        { y: 76, label: "Chhattisgarh"},
+        { y: 80, label: "Goa"},
+        { y: 88, label: "Gujarat"},
+        { y: 78, label: "Haryana"},
+        { y: 66, label: "Himachal Pradesh"},
+        { y: 60, label: "Jammu and Kashmir"},
+        { y: 69, label: "Jharkhand"},
+        { y: 67, label: "Karnataka"},
+        { y: 78, label: "Kerala"},
+        { y: 71, label: "Ladakh"},
+        { y: 64, label: "Lakshadweep"},
+        { y: 73, label: "Madhya Pradesh"},
+        { y: 65, label: "Maharashtra"},
+        { y: 62, label: "Manipur"},
+        { y: 77, label: "Meghalaya"},
+        { y: 69, label: "Mizoram"},
+        { y: 61, label: "Nagaland"},
+        { y: 65, label: "New Delhi"},
+        { y: 72, label: "Odisha"},
+        { y: 79, label: "Puducherry"},
+        { y: 82, label: "Punjab"},
+        { y: 76, label: "Rajasthan"},
+        { y: 63, label: "Sikkim"},
+        { y: 78, label: "Tamil Nadu"},
+        { y: 73, label: "Telugana"},
+        { y: 68, label: "Tripura"},
+        { y: 75, label: "Uttar Pradesh"},
+        { y: 65, label: "Uttarakhand"},
+        { y: 73, label: "West Bengal"}        
+        ]
+      }
+      ]
+    } );
+
+chart.render();
+}
+
+
+</script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+<div id="chartContainer" style="height: 600px; width: 100%;"></div>
+</body>
+</html>
